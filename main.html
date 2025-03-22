@@ -1,16 +1,57 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Gallery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container mt-4">
+        <h2 class="text-center">Cards Gallery</h2>
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://course.acciojob.com/open-web-editor?question=e481925f-561e-4015-a71c-87565b06af8b" data-toggle="lightbox">
+                        <img src="https://course.acciojob.com/open-web-editor?question=e481925f-561e-4015-a71c-87565b06af8b" class="card-img-top" alt="Image 1">
+                    </a>
+                    <div class="card-body text-center">
+                        <h6>Beautiful View</h6>
+                        <p>Image description goes here!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" data-toggle="lightbox">
+                        <img src="https://storage.googleapis.com/acciojob-open-file-collections/image2.jpg" class="card-img-top" alt="Image 2">
+                    </a>
+                    <div class="card-body text-center">
+                        <h6>Awesome Landscape</h6>
+                        <p>Image description goes here!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="https://course.acciojob.com/open-web-editor?question=e481925f-561e-4015-a71c-87565b06af8b" data-toggle="lightbox">
+                        <img src="https://course.acciojob.com/open-web-editor?question=e481925f-561e-4015-a71c-87565b06af8b" class="card-img-top" alt="Image 3">
+                    </a>
+                    <div class="card-body text-center">
+                        <h6>Nature's Beauty</h6>
+                        <p>Image description goes here!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat similar structure for other cards -->
+        </div>
+    </div>
+    <!-- Include Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.js"></script>
 </body>
-
 </html>

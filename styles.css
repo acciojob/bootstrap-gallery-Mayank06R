@@ -1,1 +1,17 @@
 /*  your css code here. If applicable */
+.card {
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+    border-radius: 8px 8px 0 0;
+}
+
+.card-body h6 {
+    font-weight: bold;
+}
+
+.card-body p {
+    font-size: 14px;
+}
