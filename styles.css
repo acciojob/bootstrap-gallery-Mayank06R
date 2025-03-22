@@ -15,9 +15,21 @@
 .card-body p {
     font-size: 14px;
     color: #333;
+    text-align: center;
 }
 
 h2 {
     margin-bottom: 30px;
     font-size: 24px;
+    text-align: center;
+}
+
+.lightbox img {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.lightbox img:hover {
+    transform: scale(1.05);
 }
